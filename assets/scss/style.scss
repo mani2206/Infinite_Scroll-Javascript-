@@ -1,0 +1,28 @@
+@import "./abstracts/variables";
+@import "./abstracts/common";
+@import "./abstracts/variables";
+@import "./includes/footer";
+@import "./includes/header";
+@import "./mixins/breakpoints";
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header{
+    font-size: 32px;
+    color:black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+  width:400px;
+  height:400px;
+  margin:4px;
+  object-fit: cover;
+}
